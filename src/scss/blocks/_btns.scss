@@ -1,0 +1,30 @@
+.btn-main {
+  padding: 12px 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  background: $main-color;
+  &-lg {
+    padding: 15px 134px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    background: $main-color;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .btn-main {
+    display: none;
+  }
+}

@@ -1,0 +1,24 @@
+.advan {
+  margin-bottom: 90px;
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+  }
+  &__item {
+    text-align: center;
+    img {
+      margin-bottom: 16px;
+    }
+  }
+  &__text {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+  }
+}

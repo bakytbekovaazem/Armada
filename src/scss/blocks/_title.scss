@@ -1,0 +1,67 @@
+.fz48 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+.fz14 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2a2828;
+}
+.fz16 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #5e5e5e;
+}
+.fz18 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #737272;
+}
+.title {
+  position: relative;
+  padding: 0 10px;
+
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.title::before,
+.title::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 50vw;
+  border-bottom: 2px solid #bebebe;
+  z-index: 100;
+}
+.title::after {
+  top: 50%;
+  left: -50vw;
+}
+.title::before {
+  top: 50%;
+  right: -50vw;
+}
+h2 {
+  margin: 0;
+}

@@ -1,0 +1,34 @@
+.price {
+  &__list {
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 22px;
+    grid-template-columns: repeat(auto-fill, minmax(220-px, 1fr));
+    margin-bottom: 30px;
+    @media (max-width: 459px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  &__item {
+    b {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 21px;
+      color: $main-color;
+    }
+  }
+  &__img {
+    margin-bottom: 10px;
+  }
+  &__text {
+    text-align: left;
+  }
+  &__btn {
+    background: #65256f;
+    border-radius: 3px;
+  }
+}
